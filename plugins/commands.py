@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://t.me/trooporiginalsbackup'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/+SjKDvG1u0H9hMjA9')
+            InlineKeyboardButton('⚡ Request group ⚡', url='https://t.me/+SjKDvG1u0H9hMjA9'),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/trooporiginalsbackup')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://t.me/trooporiginalsbackup'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/+SjKDvG1u0H9hMjA9')
+            InlineKeyboardButton('⚡ Request group ⚡', url='https://t.me/+SjKDvG1u0H9hMjA9'),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/trooporiginalsbackup')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
