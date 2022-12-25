@@ -398,7 +398,7 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    jack = cget(f'https://{SHORTENER}/api?api={SHORTENER_API}&url={link}&format=text').text
+                    jack = cget(f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&url={link}&format=text').text
                     return jack
 
     except Exception as e:
