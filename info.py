@@ -79,7 +79,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/troopsosl"
+DOWNLOAD_TEXT_URL = "https://t.me/TroopsOSL/55"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"
