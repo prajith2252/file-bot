@@ -35,7 +35,7 @@ async def gen_link_s(bot, message):
     string += file_id
     outstr = base64.urlsafe_b64encode(string.encode("ascii")).decode().strip("=")
     await message.reply(f"<b>⪼ 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺:</b>\nhttps://t.me/{temp.U_NAME}?start={outstr}")
-    bot.message.reply(f"<div style="text-align: center;"><br /></div><div style="text-align: center;"><b><a href="https://t.me/{temp.U_NAME}?start={outstr}" target="_blank"></a></b></div>") 
+    #bot.message.reply(f"<div style="text-align: center;"><br /></div><div style="text-align: center;"><b><a href="https://t.me/{temp.U_NAME}?start={outstr}" target="_blank"></a></b></div>") 
     
     
 @Client.on_message(filters.command(['batch', 'pbatch']) & filters.create(allowed))
