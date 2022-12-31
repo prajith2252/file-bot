@@ -385,7 +385,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://shareus.site/api'
+    url = f'https://shareus.us/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
@@ -397,8 +397,9 @@ async def get_shortlink(link):
                 if data["status"] == "success":
                     return data['shortenedUrl']
                 else:
-                    logger.error(f"Error: {data['message']}")
-                    return link
+                    #logger.error(f"Error: {data['message']}")
+                    jack = cget(f'https://{SHORTENER}/api?api={SHORTENER_API}&url={link}&format=text').text
+                    return jack
     except Exception as e:
         logger.error(e)
-        #return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
