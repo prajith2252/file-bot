@@ -68,8 +68,8 @@ UPSTREAM_REPO = "https://github.com/JohnWickKeanue/file-bot"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'gyanilinks.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '858e9c14c3d2bc7a6ca3e3f9208d8e9d1e40a763')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shareus.site')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'de49325d5c0c4c27e809ca5d760b3dd8cea0ec99')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
