@@ -385,14 +385,14 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://Clicksfly.com/api'
+    url = f'https://shareus.site/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
 
     try:
         async with aiohttp.ClientSession() as session:
-            async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
+            async with session.get(url, params=params, raise_for_status=True) as response:
                 data = await response.json()
                 if data["status"] == "success":
                     return data['shortenedUrl']
